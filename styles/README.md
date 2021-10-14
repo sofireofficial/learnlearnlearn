@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d4c8df22-aee2-44ac-8cfe-9ab29f05fa5c/deploy-status)](https://app.netlify.com/sites/sophialearns/deploys)
