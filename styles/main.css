@@ -3,7 +3,7 @@ body {
     font-family: lobster;
     color: white;
     text-align: center;
-    font-size: 1.4em;
+    font-size: 1.2em;
     height: 100vh; 
     margin: 0; 
     padding: 0;
@@ -26,6 +26,10 @@ body {
     background-color: black;
     padding-left: 1.5em;
     padding-right: 1.5em;
+}
+
+.needHelp {
+    background: red;
 }
 
 img.smLogo {
@@ -80,4 +84,6 @@ p {
   .scroll-col {
     -ms-overflow-style: none;
     scrollbar-width: none;
-  } /*all other browsers */
+  } 
+  
+  /*all other browsers */
