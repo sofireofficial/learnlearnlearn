@@ -38,8 +38,8 @@ img.smLogo {
 }
 
 ul {
-    list-style-type: none;
     text-align: center;
+    font-size: 0.85em;
     color: white; /* doesn't work */
 }
 
@@ -79,7 +79,7 @@ p {
 
 .scroll-col::-webkit-scrollbar {
     display: none;
-  } /*chrome browswer */
+} /* chrome browswer */
   
   .scroll-col {
     -ms-overflow-style: none;
