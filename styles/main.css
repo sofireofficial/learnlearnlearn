@@ -14,6 +14,12 @@ body {
     margin: 0;
     padding: 100px;
     color: white; /* doesn't work */
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white; /* must do this */
 }
 
 .box2 {
