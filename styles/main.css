@@ -13,7 +13,6 @@ body {
     background-color: black;
     margin: 0;
     padding: 100px;
-    color: white; /* doesn't work */
     text-decoration: none;
 }
 
@@ -21,6 +20,7 @@ a {
     text-decoration: none;
     color: white; /* must do this */
     font-weight: bold;
+    font-size: 2em;
 }
 
 .box2 {
@@ -47,11 +47,6 @@ img.smLogo {
 ul {
     text-align: center;
     font-size: 0.85em;
-    color: white; /* doesn't work */
-}
-
-p {
-    color: white; /* doesn't work */
 }
 
 @media screen and (min-width: 800px) {
@@ -59,7 +54,6 @@ p {
         display: flex;
         align-items: center;
         height: 100%;
-        color: white; /* doesn't work */
     }
 
     #ContainerLeft {
@@ -75,7 +69,6 @@ p {
         overflow-y: auto;
         height: 100vh;
         width: 50vw;   
-        color: white; /* doesn't work */       
     }
 
     body {
