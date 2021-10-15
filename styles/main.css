@@ -14,13 +14,14 @@ body {
     margin: 0;
     padding: 100px;
     text-decoration: none;
+    font-size: 2em;
 }
 
 a {
     text-decoration: none;
     color: white; /* must do this */
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .box2 {
@@ -31,12 +32,13 @@ a {
 
 #ContainerLeft {
     background-color: black;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .needHelp {
     background: red;
+    text-align: left;
 }
 
 img.smLogo {
@@ -44,9 +46,11 @@ img.smLogo {
     max-height: 1.5em;
 }
 
-ul {
-    text-align: center;
+.box2 ul {
+    text-align: right;
     font-size: 0.85em;
+    list-style-type: none;
+
 }
 
 @media screen and (min-width: 800px) {
