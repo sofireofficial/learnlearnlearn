@@ -20,6 +20,7 @@ body {
 a {
     text-decoration: none;
     color: white; /* must do this */
+    font-weight: bold;
 }
 
 .box2 {
