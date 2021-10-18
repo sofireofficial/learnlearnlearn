@@ -7,6 +7,7 @@ body {
     height: 100vh; 
     margin: 0; 
     padding: 0;
+    position: relative;/*temporary*/
 }
 
 .box1 {
@@ -37,7 +38,7 @@ a {
 }
 
 .needHelp {
-    background: red;
+    /* background: rgba(255, 0, 0, 0.26); */
     text-align: left;
 }
 
@@ -51,6 +52,38 @@ img.smLogo {
     font-size: 0.85em;
     list-style-type: none;
 
+}
+
+.buttonWithClass {
+    background-color: red;
+    cursor: pointer;
+    padding: 2em;
+    border: 0;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+
+/* This is for the modal */
+#modalWithId {
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    border: 0;
+    padding: 2em;
+    color: yellow;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5em;
+    /* width: 40%;
+    height: auto; */
+}
+
+.modal-visible {
+    display: none;
 }
 
 @media screen and (min-width: 800px) {
