@@ -1,4 +1,4 @@
-// Creating the button. See "buttonAppears.js" for detail!
+// Creating the button!
 
 const divContainer = document.querySelector('.needHelp');
 const body = document.querySelector('body');
@@ -8,23 +8,24 @@ button.classList.add('buttonWithClass');
 
 
 
-// // if I want to take in a parameter... () => displayModal(data);
-// button.addEventListener('click', displayModal);
+// if I want to take in a parameter... () => displayModal(data);
+button.addEventListener('click', displayModal);
 
-// function toDisplay() {
-//     console.log('toDisplay')
-// };
+function toDisplay() {
+    console.log('toDisplay')
+};
 
-// // to append just 1 x element (just append, can append multiple)
+// to append just 1 x element (just append, can append multiple)
 divContainer.appendChild(button);
 
-// // create a modal here
-// const modal = document.createElement('div');
-// modal.setAttribute('id', 'modalWithId');
-// modal.classList.add('modal-visible');
+// create a modal here
+const modal = document.createElement('div');
+modal.setAttribute('id', 'modalWithId');
+modal.classList.add('modal-visible');
 
 const modalContent = `<ol>
 <p>Let's... </p>
+<li>Understanding incomplete/commented out code in "detailedIndex.js file" in "Learn"</li>
 <li>Make a "X" button that closes this textbox</li>
 <li>How on earth have my group created this cake timeline?!?!</li>
 <li>The 1st part of the 1st task in React Session 5</li>
@@ -34,11 +35,11 @@ const modalContent = `<ol>
 <li>Literally everything React! i.e. session1 (what are the elements doing?) and session2 (where is the button)</li>
 </ol>`;
 
-// // see line 9
-// modal.innerHTML=modalContent;
+// see line 9
+modal.innerHTML=modalContent;
 
-// body.appendChild(modal);
+body.appendChild(modal);
  
-// function displayModal() {
-//     modal.classList.toggle('modal-visible');
-// }
+function displayModal() {
+    modal.classList.toggle('modal-visible');
+}
