@@ -101,7 +101,15 @@ console.log(button);
 // ON CLICK, DISPLAY MODAL... NOT ALERT (AS ABOVE)
 // ***************************************************************************************************************************************************************************************
 // **************************************************************************************************************************************************************************************            
-            
+       
+
+            // Here, create a dialogue box (aka modal), by making a variable that will create a div element
+            // "Hey document! Create an element called 'div'... name this activity under a variable called modal"
+const modal = document.createElement('div');
+
+// modal.setAttribute('id', 'modalWithId');
+// modal.classList.add('modal-visible');
+
 function displayModal() {
     divContainer.appendChild(modalContent);
 }
@@ -110,11 +118,6 @@ button.addEventListener('mouseover', displayModal);
 
 
             
-
-            // // create a modal here
-            // const modal = document.createElement('div');
-            // modal.setAttribute('id', 'modalWithId');
-            // modal.classList.add('modal-visible');
 
 
 
