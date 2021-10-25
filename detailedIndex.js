@@ -107,16 +107,7 @@ function displayModal() {
   closeButton.textContent = "X"; // Button text content  inside modal gets created
   closeButton.setAttribute("id", "forTheX");
   closeButton.addEventListener("click", removeModal); // Hey, keep your ears open, whenever someone clicks on you... removeModal!
-  const modalContent = `<ol>
-            <h2>Let's... </h2>
-            <li>Edit this JS... "remove markup"</li>
-            <li>How on earth have my group created this cake timeline?!?!</li>
-            <li>The 1st part of the 1st task in React Session 5</li>
-            <li>JS - session 7, from p.19... i.e. if inside while & filter & map... (see Trial_Affirmations JS file)</li>
-            <li>How to implement responsive sizing of this red element</li>
-            <li>How functions/ parameters work</li>
-            <li>Literally everything React! i.e. session1 (what are the elements doing?) and session2 (where is the button)</li>
-            </ol>`;
+  const modalContent = `Insert modalContent here! This is in markup. I have copied/pasted the full original content in a variable above, but this is no longer needed, as will be updated regularly`;
   modal.innerHTML = modalContent;
   modal.appendChild(closeButton); //this adds to the HTMl!!! Only because this is after innerHTML. InnerHTML would have reset it. (appending an element that is already created = therefore no quotes
   body.appendChild(modal);

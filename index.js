@@ -19,12 +19,12 @@ function displayModal() {
   closeButton.addEventListener("click", removeModal);
   const modalContent = `<ol>
               <h2>Let's... </h2>
-              <li>Edit this JS... "remove markup"</li>
-              <li>How on earth have my group created this cake timeline?!?!</li>
+              <li>Edit this JS file (specifically remove markup)</li>
+              <li>Reviewing how my group created the timeline... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
               <li>The 1st part of the 1st task in React Session 5</li>
               <li>JS - session 7, from p.19... i.e. if inside while & filter & map... (see Trial_Affirmations JS file)</li>
-              <li>How to implement responsive sizing of this red element</li>
-              <li>How functions/ parameters work</li>
+              <li>Ensure this yellow element is fully displayed on smaller screens... css!</li>
+              <li>How functions with parameters work</li>
               <li>Literally everything React! i.e. session1 (what are the elements doing?) and session2 (where is the button)</li>
               </ol>`;
   modal.innerHTML = modalContent; // HTML before append! Else, re-assigned!

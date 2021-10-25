@@ -84,6 +84,12 @@ img.smLogo {
     height: auto; */
 }
 
+#modalContainer a {
+    color: black;
+    font-style: italic;
+    background-color: rgba(216, 216, 23, 0.774);
+}
+
 #forTheX {
     background-color: black;
     color: white;
