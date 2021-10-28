@@ -2,6 +2,7 @@
 
 const divContainer = document.querySelector(".needHelp");
 const body = document.querySelector("body");
+const counterTag = document.createElement("p"); 
 const button = document.createElement("button");
 button.textContent = "Things to discuss with mentors!!!";
 button.classList.add("buttonWithClass");
@@ -43,7 +44,22 @@ function removeModal() {
 
 
 // Creating the "Click Me" functionality... for fun
+const alertButton = document.getElementById("alertButton"); //allows interaction with button
 
 alertButton.addEventListener('click', () => {
   alert("OMG! You clicked me!!!... Nothing to see here")
+  console.log('Yayyyy alert worked');
+});
+
+
+
+// Added with Ed... review!
+let counter = 0;
+let counterText = document.createTextNode(counter);
+counterTag.appendChild(counterText);
+
+
+alertButton.addEventListener('click', () => {
+  divContainer.appendChild(counterTag)
+  console.log('This is running')
 });
