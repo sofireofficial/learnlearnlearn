@@ -40,3 +40,10 @@ function removeModal() {
   const modal = document.querySelector("#modalContainer");
   body.removeChild(modal);
 }
+
+
+// Creating the "Click Me" functionality... for fun
+
+alertButton.addEventListener('click', () => {
+  alert("OMG! You clicked me!!!... Nothing to see here")
+});
