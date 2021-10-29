@@ -71,17 +71,22 @@ img.smLogo {
     background-color: yellow;
     border-radius: 5px;
     border: 0;
-    padding: 2em;
+    padding: 0.5em;
     color: black;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1.5em;
     text-align: left;
+    width: 90%;
     /* width: 40%;
     height: auto; */
+    /* ensure modal window stays inside window */
+    max-height: 90%;
+    overflow: auto;
+
 }
 
 #modalContainer a {
@@ -119,10 +124,13 @@ img.smLogo {
     }
 
     #ContainerLeft {
+        display: block; /* display:block = newly added with Ed! and possibly use flex direction!!! */
         background-color:black;
-        width: 50vw;
-        overflow-x: hidden;        
-        height: 100vh;
+        width: 70vw;
+        overflow-x: hidden;   
+        min-height: 100%;     
+        height: 100%;
+        height: auto;
     }
 
     #ContainerRight {
@@ -136,6 +144,11 @@ img.smLogo {
     body {
         position: relative;
         color: white;
+    }
+
+    #modal_container {
+    padding: 2em;
+    font-size: 1em;
     }
 }
 
