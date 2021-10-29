@@ -83,9 +83,8 @@ img.smLogo {
     width: 90%;
     /* width: 40%;
     height: auto; */
-    /* ensure modal window stays inside window */
-    max-height: 90%;
-    overflow: auto;
+    max-height: 90%; /* ensure modal window stays inside window */
+    overflow: auto; /* do this after setting height, to control overflow */
 
 }
 
@@ -146,10 +145,16 @@ img.smLogo {
         color: white;
     }
 
-    #modal_container {
-    padding: 2em;
+    #modalContainer {
+    line-height: 1.5em;
+    text-align: left;
+    height: 60%;
+    width: 70%;
     font-size: 1em;
+    max-height: 90%;
+    overflow: auto;
     }
+
 }
 
 .scroll-col::-webkit-scrollbar {
