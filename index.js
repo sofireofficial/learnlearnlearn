@@ -20,18 +20,19 @@ function displayModal() {
   closeButton.addEventListener("click", removeModal);
   const modalContent = `<ol>
               <h2>Let's... </h2>
-              <li>JS - session 7, from p.19... i.e. if inside while & filter & map... (see Trial_Affirmations JS file)</li>
-              <br>   
-              <h2>And... </h2>           
+              <ul>
               <li>The 1st part of the 1st task in React Session 5</li>
               <li>Reviewing how my group created the timeline... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
               <li>How functions with parameters work</li>
               <li>Literally everything React! i.e. session2 (where is the button)</li>
-              </ol>
+              </ul>
               <br>
               <h2>I will...</h2>
+              <ul>
+              <li>Continue JS (S7,p.19), with filter & map (see W3Schools & Trial_Affirmations folder)</li>   
               <li>Edit this JS file (specifically remove markup)</li>
-              <li>Make this text fill the yellow box</li>`
+              <li>Make this text fill the yellow box</li>
+              </ul>`
   modal.innerHTML = modalContent; // HTML before append! Else, re-assigned!
   modal.appendChild(closeButton);
   body.appendChild(modal);
