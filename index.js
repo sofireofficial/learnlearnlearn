@@ -31,7 +31,7 @@ function displayModal() {
               <ul>
               <li>Continue JS (S7,p.19), with filter & map (see W3Schools & Trial_Affirmations folder)</li>   
               <li>Edit this JS file (specifically remove markup)</li>
-              <li>Make this text fill the yellow box</li>
+              <li>Complete text resizing for the modal</li>
               </ul>`
   modal.innerHTML = modalContent; // HTML before append! Else, re-assigned!
   modal.appendChild(closeButton);
