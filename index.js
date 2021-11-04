@@ -21,8 +21,9 @@ function displayModal() {
   const modalContent = `<ol>
               <h2>Let's... </h2>
               <ul>
+              <li>Make this website from scratch using React</li>
               <li>The 1st part of the 1st task in React Session 5</li>
-              <li>Reviewing how my group created the timeline... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
+              <li>Reviewing how my group created the timeline functionality... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
               <li>How functions with parameters work</li>
               <li>Literally everything React! i.e. session2 (where is the button)</li>
               </ul>
