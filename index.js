@@ -59,13 +59,13 @@ alertButton.addEventListener('click', () => {
 
 
 
-// Added with Ed... review!
-let counter = 0;
-let counterText = document.createTextNode(counter);
-counterTag.appendChild(counterText);
+// Below was Added with Ed (to append "0" when button is clicked)... review!
 
+// let counter = 0;
+// let counterText = document.createTextNode(counter);
+// counterTag.appendChild(counterText);
 
-alertButton.addEventListener('click', () => {
-  divContainer.appendChild(counterTag)
-  console.log('This is running')
-});
+// alertButton.addEventListener('click', () => {
+//   divContainer.appendChild(counterTag)
+//   console.log('This is running')
+// });

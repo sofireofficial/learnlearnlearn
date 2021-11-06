@@ -18,6 +18,13 @@ body {
     font-size: 2em;
 }
 
+.box1Plus {
+    background-color: black;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+}
+
 a {
     text-decoration: none;
     color: white; /* must do this */
