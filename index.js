@@ -21,7 +21,8 @@ function displayModal() {
   const modalContent = `<ol>
               <h2>Let's... </h2>
               <ul>
-              <li>Make this website from scratch using React (learn_react doc)</li>
+              <li style="background-color: rgba(216, 216, 23, 0.774)">Javascript Session 8, p.17+</li>
+              <li>Make this website from scratch using React, adding "completedTasks" modal/component (learn_react doc)</li>
               <li>The 1st part of the 1st task in React Session 5</li>
               <li>Reviewing how my group created the timeline functionality... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
               <li>How functions with parameters work</li>
@@ -30,7 +31,8 @@ function displayModal() {
               <br>
               <h2>I will...</h2>
               <ul>
-              <li>Continue JS (S7,p.19), with filter & map (see W3Schools & Trial_Affirmations folder)</li>   
+              <li>Practice filter & map via W3Schools</li>
+              <li>Image to be Position:Absolute in middle of smaller screens</li>  
               <li>Edit this JS file (specifically remove markup)</li>
               <li>Complete text resizing for the modal</li>
               </ul>`
