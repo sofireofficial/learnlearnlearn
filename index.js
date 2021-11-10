@@ -71,3 +71,32 @@ alertButton.addEventListener('click', () => {
 //   divContainer.appendChild(counterTag)
 //   console.log('This is running')
 // });
+
+
+let btnAdd = document.querySelector("#add");
+let btnRemove = document.querySelector("#remove");
+let output = document.querySelector("h3");
+
+
+function onFunction() {
+  output.innerText = `Function On`
+  btnAdd.style="background-color: pink";
+  console.log(`pink button, function on`)
+}
+
+btnAdd.addEventListener("click", onFunction);
+btnAdd.removeEventListener("click", onFunction);
+// function offFunction() {
+// // ???
+// }
+
+// btnAdd.addEventListener("mouseout", offFunction);
+
+// function offFunction() {
+//   output.innerText = `Function Off`
+//   btnAdd.style="";
+//   console.log(`white button, function off`)
+// }
+// btnAdd.removeEventListener["click", someFunction]
+
+// btnRemove.removeEventListener("click", someFunction);
