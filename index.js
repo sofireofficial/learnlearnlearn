@@ -105,66 +105,31 @@ alertButton.addEventListener('click', () => {
 
 
 // executes all until when hits condition/function
+// Ed help...
+let btnAdd = document.querySelector("#add");
+let btnRemove = document.querySelector("#remove");
+let h3 = document.querySelector("h3");
 
-// let btnAdd = document.querySelector("#add");
-// let btnRemove = document.querySelector("#remove");
-// let h3 = document.querySelector("h3");
+btnAdd.addEventListener("click", added);
 
-// btnAdd.addEventListener("click", checkOut);
-// btnRemove.addEventListener("click", checkedOut);
+function added() {
+  btnAdd.style="background-color: blue";
+  h3.innerText= `clicked, you cannot add anything else!`;
+  console.log('Number of times added');
+  btnAdd.removeEventListener("click", added)
+  btnRemove.addEventListener("click", removed);
+}
 
-
-// function checkOut() {
-//   btnAdd.style="font-size: 30px";
-//   btnRemove.click(); //added ".click()"
-// }
-
-// function checkedOut() {
-//   btnAdd.removeEventListener("click", checkOut);
-//   h3.innerText= `You can no longer click the check out button! You have checkout out!`;
-//   console.log('clicked');
-//   }
-
-
-
-
-
+function removed() {
+      btnAdd.style="";
+      btnAdd.addEventListener("click", added);
+      console.log('you have removed the item');
+      h3.innerText= `you can add items`;
+      btnRemove.removeEventListener("click", removed);
+  }
 
 
 
-
-// ****************This works, but only through styling & layering event listeners**********
-// let happy = document.querySelector("#happy");
-// let sad = document.querySelector("#sad");
-// let emotion = document.querySelector("h2");
-// let reset = document.querySelector("#reset");
-
-// happy.addEventListener("click", makeHappyFace);
-// sad.addEventListener("click", makeSadFace);
-// reset.addEventListener("click", makeFaceless)
-
-// function makeHappyFace() {
-//   emotion.innerText = `🙂`
-//   happy.style="font-size:30px; background-color:grey";
-//   sad.style="";
-//   console.log(`I'm glad you're happy`)
-// }
-
-// function makeSadFace() {
-//   emotion.innerText = `🙁`
-//   // happy.removeEventListener("click", () => console.log()); //logical to pass inside fucntion
-//   happy.style="";
-//   sad.style="font-size:30px; background-color:grey";
-//   console.log(`Cheer up, Chuck!`);
-// }
-
-// function makeFaceless() {
-//   emotion.innerText = `...`
-//   happy.style="";
-//   sad.style="";
-//   console.log(`Indifferent is okay`)
-// }
-// ****************This works, but only through styling & layering event listeners**********
 
 
 
@@ -179,23 +144,32 @@ sad.addEventListener("click", makeSadFace);
 reset.addEventListener("click", makeFaceless)
 
 function makeHappyFace() {
+  resetFaces();
   emotion.innerText = `🙂`
+  happy.innerText= `You are happy`
   happy.style="font-size:30px; background-color:grey";
   sad.style="";
   console.log(`I'm glad you're happy`)
 }
 
 function makeSadFace() {
+  resetFaces();
   emotion.innerText = `🙁`
-  // happy.removeEventListener("click", () => console.log()); //logical to pass inside fucntion
-  happy.style="";
   sad.style="font-size:30px; background-color:grey";
+  sad.innerText = `You are sad`
   console.log(`Cheer up, Chuck!`);
+  // happy.removeEventListener("click", makeHappyFace); === says "remove the click event listener (called makeHappyFace) on the happy element"
 }
 
 function makeFaceless() {
   emotion.innerText = `...`
-  happy.style="";
-  sad.style="";
+  resetFaces();
   console.log(`Indifferent is okay`)
+}
+
+function resetFaces() {
+  happy.innerText = `Click me if you're happy`
+  happy.style="";
+  sad.innerText = `Click me if you're sad`
+  sad.style="";
 }
