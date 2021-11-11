@@ -122,6 +122,12 @@ img.smLogo {
     border-radius: 20px;
 }
 
+#happy, #sad, #add, #remove {
+    border-radius: 50px;
+    margin-top: 3%;
+    padding: 5px;
+}
+
 @media screen and (min-width: 600px) {
     main {
         display: flex;

@@ -72,31 +72,130 @@ alertButton.addEventListener('click', () => {
 //   console.log('This is running')
 // });
 
+// **************************************************works no.1!!! ******************************
+// let btnAdd = document.querySelector("#add");
+// let btnRemove = document.querySelector("#remove");
+// let unclicked = document.querySelector("h3");
 
-let btnAdd = document.querySelector("#add");
-let btnRemove = document.querySelector("#remove");
-let output = document.querySelector("h3");
+// btnAdd.addEventListener("click", onFunction);
+// btnRemove.addEventListener("click", offFunction);
 
 
-function onFunction() {
-  output.innerText = `Function On`
-  btnAdd.style="background-color: pink";
-  console.log(`pink button, function on`)
-}
-
-btnAdd.addEventListener("click", onFunction);
-btnAdd.removeEventListener("click", onFunction);
-// function offFunction() {
-// // ???
+// function onFunction() {
+//   unclicked.innerText = `Function On`
+//   btnAdd.style="background-color: pink";
+//   console.log(`pink button, function on`)
 // }
 
-// btnAdd.addEventListener("mouseout", offFunction);
-
 // function offFunction() {
-//   output.innerText = `Function Off`
+//   unclicked.innerText = `Function Off`
+//   btnAdd.removeEventListener("click", () => console.log()); //logical to pass inside fucntion
 //   btnAdd.style="";
+//   btnRemove.style="background-color: green";
 //   console.log(`white button, function off`)
 // }
-// btnAdd.removeEventListener["click", someFunction]
+// **************************************************works no.1!!! ******************************
 
-// btnRemove.removeEventListener("click", someFunction);
+
+
+
+
+
+
+
+
+// executes all until when hits condition/function
+
+// let btnAdd = document.querySelector("#add");
+// let btnRemove = document.querySelector("#remove");
+// let h3 = document.querySelector("h3");
+
+// btnAdd.addEventListener("click", checkOut);
+// btnRemove.addEventListener("click", checkedOut);
+
+
+// function checkOut() {
+//   btnAdd.style="font-size: 30px";
+//   btnRemove.click(); //added ".click()"
+// }
+
+// function checkedOut() {
+//   btnAdd.removeEventListener("click", checkOut);
+//   h3.innerText= `You can no longer click the check out button! You have checkout out!`;
+//   console.log('clicked');
+//   }
+
+
+
+
+
+
+
+
+
+// ****************This works, but only through styling & layering event listeners**********
+// let happy = document.querySelector("#happy");
+// let sad = document.querySelector("#sad");
+// let emotion = document.querySelector("h2");
+// let reset = document.querySelector("#reset");
+
+// happy.addEventListener("click", makeHappyFace);
+// sad.addEventListener("click", makeSadFace);
+// reset.addEventListener("click", makeFaceless)
+
+// function makeHappyFace() {
+//   emotion.innerText = `🙂`
+//   happy.style="font-size:30px; background-color:grey";
+//   sad.style="";
+//   console.log(`I'm glad you're happy`)
+// }
+
+// function makeSadFace() {
+//   emotion.innerText = `🙁`
+//   // happy.removeEventListener("click", () => console.log()); //logical to pass inside fucntion
+//   happy.style="";
+//   sad.style="font-size:30px; background-color:grey";
+//   console.log(`Cheer up, Chuck!`);
+// }
+
+// function makeFaceless() {
+//   emotion.innerText = `...`
+//   happy.style="";
+//   sad.style="";
+//   console.log(`Indifferent is okay`)
+// }
+// ****************This works, but only through styling & layering event listeners**********
+
+
+
+
+let happy = document.querySelector("#happy");
+let sad = document.querySelector("#sad");
+let emotion = document.querySelector("h2");
+let reset = document.querySelector("#reset");
+
+happy.addEventListener("click", makeHappyFace);
+sad.addEventListener("click", makeSadFace);
+reset.addEventListener("click", makeFaceless)
+
+function makeHappyFace() {
+  emotion.innerText = `🙂`
+  happy.style="font-size:30px; background-color:grey";
+  sad.style="";
+  console.log(`I'm glad you're happy`)
+}
+
+function makeSadFace() {
+  emotion.innerText = `🙁`
+  // happy.removeEventListener("click", () => console.log()); //logical to pass inside fucntion
+  happy.style="";
+  sad.style="font-size:30px; background-color:grey";
+  console.log(`Cheer up, Chuck!`);
+}
+
+function makeFaceless() {
+  emotion.innerText = `...`
+  happy.style="";
+  sad.style="";
+  console.log(`Indifferent is okay`)
+}
