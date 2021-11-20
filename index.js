@@ -19,24 +19,29 @@ function displayModal() {
   closeButton.setAttribute("id", "forTheX");
   closeButton.addEventListener("click", removeModal);
   const modalContent = `<ol>
-              <h2>Let's... </h2>
-              <ul>
-              <li>Add image to Learn-react page</li> 
-              <li><style="background-color: rgba(216, 216, 23, 0.774)">Javascript Session 8, p.28+ & Homework (Removing Event Handlers)</li>
-              <li>Make this website from scratch using React, adding "completedTasks" modal/component (learn_react doc)</li>
-              <li>The 1st part of the 1st task in React Session 5</li>
-              <li>Reviewing how my group created the timeline functionality... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
-              <li>How functions with parameters work</li>
-              <li>Literally everything React! i.e. session2 (where is the button)</li>
-              </ul>
-              <br>
-              <h2>I will...</h2>
-              <ul>
-              <li>Practice filter & map via W3Schools</li>
-              <li>Image to be Position:Absolute in middle of smaller screens</li>  
-              <li>Edit this JS file (specifically remove markup)</li>
-              <li>Complete text resizing for the modal</li>
-              </ul>`
+      <h2>Let's... </h2>
+      <ul>       
+      <li style="background-color: rgba(216, 216, 23, 0.774)">Make this website from scratch using React, adding "completedTasks" modal/component (learn_react doc)</li>
+      <li>JS s8, p.28+ & Homework (Removing Event Handlers)</li>
+      <li>Reviewing how my group created the timeline functionality... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
+      <li>How functions with parameters work</li>
+      </ul>
+      <br>
+
+      <h2>I will...</h2>
+      <ul>
+      <li>Revise all of React esp. s5(task1) & s2(where is the button?)</li>
+      <li>Practice filter & map via W3Schools</li>
+      <li>Image to be Position:Absolute in middle of smaller screens</li>  
+      <li>Edit this JS file (specifically remove markup)</li>
+      <li>Complete text resizing for the modal</li>
+      </ul>
+      <br>
+
+      <h2>I have already...</h2>
+      <ul>
+      <li>Added image to Learn-react page</li>  
+      </ul>`
   modal.innerHTML = modalContent; // HTML before append! Else, re-assigned!
   modal.appendChild(closeButton);
   body.appendChild(modal);
