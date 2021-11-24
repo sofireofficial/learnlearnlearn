@@ -30,6 +30,7 @@ function displayModal() {
 
       <h2>I will...</h2>
       <ul>
+      <li>Watch full Node tutorial on YouTube</li>
       <li>Revise all of React esp. s5(task1) & s2(where is the button?)</li>
       <li>Practice filter & map via W3Schools</li>
       <li>Image to be Position:Absolute in middle of smaller screens</li>  
