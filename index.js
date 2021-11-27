@@ -19,9 +19,15 @@ function displayModal() {
   closeButton.setAttribute("id", "forTheX");
   closeButton.addEventListener("click", removeModal);
   const modalContent = `<ol>
-      <h2>Let's... </h2>
+      <h2>Today, we shall...</h2>
+      <ul>
+      <li style="background-color: rgba(216, 216, 23, 0.774)">Review LearnReact progress/functionality</li>
+      </ul>
+      <br>
+
+      <h2>Areas I'd like further support...</h2>
       <ul>       
-      <li style="background-color: rgba(216, 216, 23, 0.774)">Make this website from scratch using React, adding "completedTasks" modal/component (learn_react doc)</li>
+      <li>Completing LearnReact webpage, ensuring desired functionality (add & remove actions within both modals)</li>
       <li>JS s8, p.28+ & Homework (Removing Event Handlers)</li>
       <li>Reviewing how my group created the timeline functionality... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
       <li>How functions with parameters work</li>
@@ -30,7 +36,8 @@ function displayModal() {
 
       <h2>I will...</h2>
       <ul>
-      <li>Watch full Node tutorial on YouTube</li>
+      <li style="background-color: rgba(216, 216, 23, 0.774)">Review props usage on LearnReact site</li>
+      <li style="background-color: rgba(216, 216, 23, 0.774)">Watch full Node tutorial on YouTube</li>
       <li>Revise all of React esp. s5(task1) & s2(where is the button?)</li>
       <li>Practice filter & map via W3Schools</li>
       <li>Image to be Position:Absolute in middle of smaller screens</li>  
