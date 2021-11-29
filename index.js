@@ -4,7 +4,7 @@ const divContainer = document.querySelector(".needHelp");
 const body = document.querySelector("body");
 const counterTag = document.createElement("p"); 
 const button = document.createElement("button");
-button.textContent = "Things to discuss with mentors!!!";
+button.textContent = "Mentor!!! Please click here";
 button.classList.add("buttonWithClass");
 
 divContainer.appendChild(button);
