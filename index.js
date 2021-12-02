@@ -48,7 +48,8 @@ function displayModal() {
 
       <h2>I have already...</h2>
       <ul>
-      <li>Added image to Learn-react page</li>  
+      <li>Added image to Learn-react page</li> 
+      <li>And a whole lot of other stuff...</li> 
       </ul>`
   modal.innerHTML = modalContent; // HTML before append! Else, re-assigned!
   modal.appendChild(closeButton);
