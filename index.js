@@ -35,6 +35,7 @@ function displayModal() {
 
       <h2>I will...</h2>
       <ul>
+      <li>Review props progression with Ed 2.12.21</li>
       <li style="background-color: rgba(216, 216, 23, 0.774)">Review props usage on LearnReact site</li>
       <li>JS s8, p.28+ & Homework (Removing Event Handlers)</li>
       <li style="background-color: rgba(216, 216, 23, 0.774)">Watch full Node tutorial on YouTube</li>
