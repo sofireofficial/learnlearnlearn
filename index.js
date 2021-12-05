@@ -21,7 +21,6 @@ function displayModal() {
   const modalContent = `<ol>
       <h2>Today, we shall...</h2>
       <ul>
-      <li>Link socials to LearnReact page</li>
       <li style="background-color: rgba(216, 216, 23, 0.774)">Review LearnReact progress/functionality... <a href="https://sophlearnsreact.netlify.app/" target="blank">Click Here</a></li>
       </ul>
       <br>
@@ -50,6 +49,7 @@ function displayModal() {
 
       <h2>I have already...</h2>
       <ul>
+      <li>Linked socials to LearnReact page</li>
       <li>Added image to Learn-react page</li> 
       <li>And a whole lot of other stuff...</li> 
       </ul>`
