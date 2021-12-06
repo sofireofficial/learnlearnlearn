@@ -19,39 +19,36 @@ function displayModal() {
   closeButton.setAttribute("id", "forTheX");
   closeButton.addEventListener("click", removeModal);
   const modalContent = `<ol>
-      <h2>Today, we shall...</h2>
+      <h2>Today, we shall:</h2>
       <ul>
-      <li style="background-color: rgba(216, 216, 23, 0.774)">Review LearnReact progress/functionality... <a href="https://sophlearnsreact.netlify.app/" target="blank">Click Here</a></li>
+      <li>Review <span style="background-color: rgba(216, 216, 23, 0.774)">LearnReact progress/functionality... </span><a href="https://sophlearnsreact.netlify.app/" target="blank">Click Here</a></li>
       </ul>
       <br>
 
-      <h2>Areas I'd like further support...</h2>
+      <h2>Areas I'd like further support:</h2>
       <ul>       
       <li>Completing LearnReact webpage, ensuring desired functionality (add & remove actions within both modals)</li>
-      <li>Reviewing how my group created the timeline functionality... <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a></li>
-      <li>How functions with parameters work</li>
+      <li>Reviewing <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a> timeline functionality</li>
       </ul>
       <br>
 
-      <h2>I will...</h2>
+      <h2>I will:</h2>
       <ul>
-      <li>Review props progression with Ed 2.12.21</li>
-      <li style="background-color: rgba(216, 216, 23, 0.774)">Review props usage on LearnReact site</li>
-      <li>JS s8, p.28+ & Homework (Removing Event Handlers)</li>
-      <li style="background-color: rgba(216, 216, 23, 0.774)">Watch full Node tutorial on YouTube</li>
-      <li>Revise all of React esp. s5(task1) & s2(where is the button?)</li>
-      <li>Practice filter & map via W3Schools</li>
-      <li>Image to be Position:Absolute in middle of smaller screens</li>  
+      <li>Review<span style="background-color: rgba(216, 216, 23, 0.774)"> props usage on LearnReact site</span> and progression with Ed on 2.12.21</li>
+      <li>Watch full <span style="background-color: rgba(216, 216, 23, 0.774)">Node tutorial</span> on YouTube</li>
+      <li>Revise React esp. s5(task1) & s2(where is the button?)</li>
+      <li>Practice: filter(), map(), passing arguments, removing Event Handlers</li>
+      <li>Perfect styling: resize modal texts</li>
       <li>Edit this JS file (specifically remove markup)</li>
-      <li>Complete text resizing for the modal</li>
       </ul>
       <br>
 
-      <h2>I have already...</h2>
+      <h2>I have successfully:</h2>
       <ul>
+      <li>Created React App from scratch</li>
       <li>Linked socials to LearnReact page</li>
       <li>Added image to Learn-react page</li> 
-      <li>And a whole lot of other stuff...</li> 
+      <li>And more...</li> 
       </ul>`
   modal.innerHTML = modalContent; // HTML before append! Else, re-assigned!
   modal.appendChild(closeButton);
