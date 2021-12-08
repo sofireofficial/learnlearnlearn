@@ -22,6 +22,7 @@ function displayModal() {
       <h2>Today, we shall:</h2>
       <ul>
       <li>Review <span style="background-color: rgba(216, 216, 23, 0.774)">LearnReact progress/functionality... </span><a href="https://sophlearnsreact.netlify.app/" target="blank">Click Here</a></li>
+      <li>Understand how Node might link to this page</li>
       </ul>
       <br>
 
