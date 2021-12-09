@@ -28,8 +28,8 @@ function displayModal() {
 
       <h2>Areas I'd like further support:</h2>
       <ul>       
-      <li>Completing LearnReact webpage, ensuring desired functionality (add & remove actions within both modals)</li>
-      <li>Reviewing <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a> timeline functionality</li>
+      <li>Complete LearnReact webpage, ensuring desired functionality (add & remove actions within both modals)</li>
+      <li>Review <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a> timeline functionality</li>
       </ul>
       <br>
 
