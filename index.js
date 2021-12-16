@@ -19,21 +19,21 @@ function displayModal() {
   closeButton.setAttribute("id", "forTheX");
   closeButton.addEventListener("click", removeModal);
   const modalContent = `<ol>
-      <h2>Today, I'd like to: </h2>
+      <h2>Today, I'd like to:</h2>
       <ul>
       <li>Review <span style="background-color: rgba(216, 216, 23, 0.774)">LearnReact progress/functionality... </span><a href="https://sophlearnsreact.netlify.app/" target="blank">Click Here</a></li>
       <li>Understand how Node might link to this page</li>
       </ul>
       <br>
 
-      <h2>Areas I'd like further support: </h2>
+      <h2>Areas I'd like further support:</h2>
       <ul>       
       <li>Complete LearnReact webpage, ensuring desired functionality (add & remove actions within both modals)</li>
       <li>Review <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a> timeline functionality</li>
       </ul>
       <br>
 
-      <h2>I will: </h2>
+      <h2>I will:</h2>
       <ul>
       <li>Review<span style="background-color: rgba(216, 216, 23, 0.774)"> props usage on LearnReact site</span> and progression with Ed on 2.12.21</li>
       <li>Watch full <span style="background-color: rgba(216, 216, 23, 0.774)">Node tutorial</span> on YouTube</li>
@@ -44,7 +44,7 @@ function displayModal() {
       </ul>
       <br>
 
-      <h2>I have successfully: </h2>
+      <h2>I have successfully:</h2>
       <ul>
       <li>Used different props for my Alert Buttons</li>
       <li>Created React App from scratch</li>
@@ -52,7 +52,7 @@ function displayModal() {
       <li>Added image to Learn-react page</li> 
       <li>And more...</li> 
 
-      <h2>Stay tuned </h2>
+      <h2>Stay tuned</h2>
       </ul>`
   modal.innerHTML = modalContent; // HTML before append! Else, re-assigned!
   modal.appendChild(closeButton);
