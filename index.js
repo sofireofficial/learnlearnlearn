@@ -19,14 +19,14 @@ function displayModal() {
   closeButton.setAttribute("id", "forTheX");
   closeButton.addEventListener("click", removeModal);
   const modalContent = `<ol>
-      <h2>Today, I'd like to: </h2>
+      <h2>Today, I would like to: </h2>
       <ul>
       <li>Review <span style="background-color: rgba(216, 216, 23, 0.774)">LearnReact progress/functionality... </span><a href="https://sophlearnsreact.netlify.app/" target="blank">Click Here</a></li>
       <li>Understand how Node might link to this page</li>
       </ul>
       <br>
 
-      <h2>Areas I'd like further support: </h2>
+      <h2>Areas I would like further support: </h2>
       <ul>       
       <li>Complete LearnReact webpage, ensuring desired functionality (add & remove actions within both modals)</li>
       <li>Review <a href="https://cupcakemania.netlify.app/" target="blank">Cupcake Mania</a> timeline functionality</li>
