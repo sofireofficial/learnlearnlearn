@@ -44,7 +44,7 @@ function displayModal() {
       </ul>
       <br>
 
-      <h2>I have successfully:    </h2>
+      <h2>I have successfully: </h2>
       <ul>
       <li>Used different props for my Alert Buttons</li>
       <li>Created React App from scratch</li>
